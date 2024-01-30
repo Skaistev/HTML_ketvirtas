@@ -1,5 +1,5 @@
 # HTML
-Astronaut
+Coming soon. Responsive design. Website design.
 
 <br>
 
@@ -7,17 +7,21 @@ Astronaut
 
 This project is for educational porpuses only. 
 
-Site published at: 
+Site published at:  https://skaistev.github.io/HTML_ketvirtas/
 
+Design: https://cdn.discordapp.com/attachments/850245533838868480/850246473362178048/coming-soon-wide.png
 
 
 ## 🎯 Project features/goals
 
-- GitHub pages
-- CSS units: vh
-- CSS flex
-- CSS hover state
-**no responsive design**
+-Github pages
+-git branch
+-responsive design
+-CSS animation
+-form
+-FontAwesome icons
+-CSS units: vh, vw, vmin, vmax
+
 
 
 ## 🧰 Getting Started
@@ -42,7 +46,7 @@ Would like to run this project locally? Open terminal and follow these steps:
 
 1. Clone the repo
     ```sh
-    git clone 
+    git clone https://github.com/Skaistev/HTML_ketvirtas.git
     ```
 2. Install NPM packages
     ```sh
