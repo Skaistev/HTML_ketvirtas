@@ -9,18 +9,17 @@ This project is for educational porpuses only.
 
 Site published at:  https://skaistev.github.io/HTML_ketvirtas/
 
-Design: https://cdn.discordapp.com/attachments/850245533838868480/850246473362178048/coming-soon-wide.png
-
+Design: [Coming soon](https://cdn.discordapp.com/attachments/850245533838868480/850246473362178048/coming-soon-wide.png)
 
 ## 🎯 Project features/goals
 
--Github pages
--git branch
--responsive design
--CSS animation
--form
--FontAwesome icons
--CSS units: vh, vw, vmin, vmax
+-Github pages <p>
+-git branch <p>
+-responsive design <p>
+-CSS animation <p>
+-form <p>
+-FontAwesome icons <p>
+-CSS units: vh, vw, vmin, vmax <p>
 
 
 
