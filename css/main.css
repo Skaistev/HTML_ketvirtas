@@ -59,6 +59,34 @@ body {
     font-size: 20px;
 }
 
+/* Content */
+
+.column-header {
+    padding: 10px;
+    text-transform:uppercase;
+    font-size: 20px;
+    }
+    .column-par {
+        padding: 10px; 
+        font-size: 18px; 
+        color: rgb(141, 140, 140);
+    } 
+
+    .column-par > a {
+        color: rgb(197, 70, 91);
+        text-decoration: none;
+    }
+    .column-par > a:hover {
+        color: rgb(63, 23, 30);
+        text-decoration: underline;
+    }
+
+
+/* Footer */
+
+/* Responsive */
+
+
 @media (max-width: 1100px) {
     .container > .row {
         width: 800px;
