@@ -99,6 +99,21 @@ footer.container {
     color: #fff;
     font-size: 20px;
     text-decoration: none;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50px;
+    transition: all 1s;
+   
+}
+.socials > a:hover {
+    background-color: #fff;
+    color: #03a9f4;
+    font-size: 20px;
+    text-decoration: none;
+    transition: all 3s;
+  
 }
 
 .footer-bottom {
