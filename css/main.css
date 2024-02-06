@@ -17,20 +17,20 @@ body {
 
 .container {
     width: 100%;
-    padding: 60px 0;
+    padding: 4rem 0;
 }
 
 .container > .row {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 40px 10px;
-    width: 1000px;
-    margin: 0 calc(50% - 500px);
+    gap: 2.5rem 0;
+    width: 62 rem;
+    margin: 0 calc(50% - 31rem);
 }
 .container > .row-short {
-    width: 600px;
-    margin: 0 calc(50% - 300px);
+    width: 38rem;
+    margin: 0 calc(50% - 19rem);
 }
 
 
@@ -46,32 +46,44 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 1.2rem;
     text-align: center;
 }
 .hero > .logo {
-    height: 40px;
-    margin-bottom: 20px;
+    height: 2.1rem;
+    margin-bottom: 1.25rem;
 }
 .hero > .main-title {
-    font-size: 80px;
+    /* font-size: 80px; */
+    font-size: 5rem;
 }
 .hero > .description {
-    font-size: 20px;
+    /* font-size: 20px; */
     color: #808080b3;
-    width: 800px;
+    width: 50rem;
+    font-size: 1.25rem;
+}
+
+.btn {
+    color: white;
+    background-color: #aa142d;
+    border-radius: 10px;
+    padding: 20px 20px;
+    width: 200px;
+    font-size:20px;
+    text-align: center;
 }
 
 /* Content */
 
 .column-header {
-    padding: 10px;
+    padding: 0.6rem;
     text-transform:uppercase;
-    font-size: 20px;
+    font-size: 1.25rem;
     }
     .column-par {
-        padding: 10px; 
-        font-size: 18px; 
+        padding: 0.6rem;
+        font-size: 1.12rem;
         color: rgb(141, 140, 140);
     } 
 
@@ -91,26 +103,26 @@ footer.container {
     padding-top: 0px;
 }
 .socials.row {
-    gap: 30px;
-    padding: 20px 0;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    gap: 1.9rem;
+    padding: 1.25rem 0;
+    border-bottom: 0.1rem solid rgba(255, 255, 255, 0.2);
 }
 .socials > a {
     color: #fff;
-    font-size: 20px;
+    font-size: 1.25em;
     text-decoration: none;
-    width: 40px;
-    height: 40px;
+    width: 2.4em;
+    height: 2.5em;
     text-align: center;
-    line-height: 40px;
-    border-radius: 50px;
+    line-height: 2.4em;
+    border-radius: 3.12rem;
     transition: all 1s;
    
 }
 .socials > a:hover {
     background-color: #fff;
     color: #03a9f4;
-    font-size: 20px;
+    font-size: 1.25rem;
     text-decoration: none;
     transition: all 3s;
   
@@ -122,14 +134,14 @@ text-align: center;
 }
 
 footer .logo {
-    height: 40px;
-    margin: 30px 0;
+    height: 2.5rem;
+    margin: 1.9rem 0;
 }
 
 footer p {
     color: #fffb;
-    line-height: 30px;
-    font-size: 18px;
+    line-height: 1.9rem;
+    font-size: 1.12rem;
 }
 footer p > a {
     color: rgba(255, 255, 255);
@@ -145,17 +157,17 @@ footer p > a:hover {
 /* Responsive */
 
 
-@media (max-width: 1100px) {
+@media (max-width: 69rem) {
     .container > .row {
-        width: 800px;
-        margin: 0 calc(50% - 400px);
+        width: 50rem;
+        margin: 0 calc(50% - 25rem);
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 56rem) {
     .container > .row {
-        width: 600px;
-        margin: 0 calc(50% - 300px);
+        width: 37rem;
+        margin: 0 calc(50% - 19rem);
     }
     .container .column {
         width: 100%;
@@ -166,22 +178,32 @@ footer p > a:hover {
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 44rem) {
     .container > .row,
     .container > .row-short {
-        width: 400px;
-        margin: 0 calc(50% - 200px);
+        width: 25px;
+        margin: 0 calc(50% - 12.5rem);
     }
 }
 
-@media (max-width: 440px) {
+@media (max-width: 42.5rem) {
     .container {
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
     }
     .container > .row,
     .container > .row-short {
         width: 100%;
         margin: 0;
     }
+}
+
+.btn {
+    color: white;
+    background-color: #aa142d;
+    border-radius: 10px;
+    padding: 20px 20px;
+    width: 200px;
+    font-size:20px;
+    text-align: center;
 }
