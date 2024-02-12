@@ -1,3 +1,7 @@
+html {
+scroll-behavior: smooth;
+}
+
 body,
 body * {
     margin: 0;
@@ -148,8 +152,9 @@ footer p > a:hover {
 
 .back-to-top {
     background-color: #ea1e63;
-    width: 2rem;
+    width: 4rem;
     position: fixed;
+    padding: 1rem 2rem;
     /* top:  calc(50% - 50px);
     left: calc(50% - 50px); */
     bottom: 0rem;
@@ -159,10 +164,17 @@ footer p > a:hover {
     /* transform kai reikia centruoti elementa */
 
 }
-.back-to-top > .text {
-   
 
+.btn.btn-icon {
+    font-family: FontAwesome;
+    padding: 0;
+    text-align: center;
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+    font-size: 3 rem;
 }
+
 
 /* RESPONSIVE */
 
