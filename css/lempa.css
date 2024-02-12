@@ -1,0 +1,46 @@
+.main {
+    display: flex;
+   justify-content: space-around;
+   gap: 1em;
+   width: 120em;
+    flex-wrap: wrap;
+    font-size: 1rem;
+    padding: 1em;
+}
+
+.lempa {
+    border: 1px solid black;
+    height: 1.2em;
+    width: 1.2em;
+    border-radius: 2em;
+    padding: 0.5em;
+    margin: 0.5em;
+    background-color: #fff;
+
+}
+.lempa::before{
+content: '';
+display: block;
+width: 2.2em;
+height: 2.2em;
+border-radius: 1.2em;
+margin-left: calc(50% - 1.1em);
+margin-top: calc(50% - 1.1em);
+animation-name: shine_all;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+}
+
+@keyframes shine_all {
+    0%{ background-color:green }
+    25%{background-color: blue;}
+    50%{background-color:yellow}
+    100%{ background-color:red}
+}
+@keyframes shine_one{
+    0%{ background-color:yellow }
+    25%{background-color: white}
+    50%{ background-color: red}
+    75%{ background-color: white;}
+    100%{ background-color: green}
+}
