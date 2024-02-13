@@ -97,6 +97,27 @@ body {
     text-decoration: underline;
 }
 
+.form-sub {
+    color: white;
+    justify-content: center;
+
+}
+
+.form-sub input {
+    color: white;
+    border-color: white;
+}
+
+.form-sub input::placeholder {
+    color: #fff;
+}
+
+@media (min-width: 70rem){
+.form-message .form-row:nth-child(1), .form-message .form-row:nth-child(2){
+    width: calc(50% - 0.5rem);
+}
+
+}
 
 
 /* FOOTER */
