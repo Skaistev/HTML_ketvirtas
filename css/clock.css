@@ -6,6 +6,7 @@
     color: #fff;
     text-align: center;
     font-weight: bold;
+    margin-top: 3rem;
 }
 .clock > .time {
     display: flex;
