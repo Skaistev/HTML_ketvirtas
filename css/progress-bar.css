@@ -14,7 +14,7 @@
     justify-content: space-between;
     align-items: center;
     font-size: 1.1rem;
-    color: #777;
+    color: var(--grey);
 }
 
 .progress-bar > .bottom {
@@ -33,7 +33,7 @@
 .progress-bar .progress::before{
     content: '';
     display: block;
-    background-color: #03a9f4;
+    background-color: var(--primary);
     width: 100%;
     height: inherit;
     border-radius: 0 0.25rem 0.25rem 0;
